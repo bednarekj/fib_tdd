@@ -12,3 +12,5 @@ def find_term(digit_limit):
             return 'F{0}'.format(term_nr)
 
 
+if __name__ == '__main__':
+    print(find_term(1000))
